@@ -10,7 +10,8 @@ EXT_DOC = ['pdf', 'txt', 'docs', 'docx']
 EXT_COMP = ['zip', 'rar']
 EXT_APP = ['dmg' , 'exe']
 
-BASE_PATH = os.path.expanduser('/Users/samayn/Desktop/Git-CO/FileReorganizer_Py/FOLDERS/')
+pathB = 'YOUR PATH HERE/'
+BASE_PATH = os.path.expanduser(pathB)
 DEST_DIRS = ['Downloads', 'Music', 'Images', 'Videos', 'Docs', 'Apps', 'others']
 
 for d in DEST_DIRS:
